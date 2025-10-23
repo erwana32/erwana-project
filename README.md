@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {\rtf1\ansi\ansicpg1252\cocoartf2865
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
@@ -7,3 +8,6 @@
 
 \f0\fs24 \cf0 \'97This is first git \
 2025-10-22}
+=======
+# Learning python basics 
+>>>>>>> a8e4f40 (Add Learning folder python basics)
