@@ -66,3 +66,46 @@ for name, stock in stock_obat.items():
     else:
         print(f"{name} V Stok cukup, tersisa {stock} strip ")
     
+# Tebak angka "using break"
+
+angka_rahasia = 7
+
+while True:
+    tebakan = int(input("Tebak angka 1 - 10:"))
+    if tebakan == angka_rahasia:
+        print("Selamat! Tebakan Anda benar.")
+        break
+    else:
+        print("Tebakan salah. Coba lagi!")
+        
+#Cetak angka ganjil "using continue"
+for i in range (10):
+    if i % 2 == 0:
+        continue
+    print("Angka ganjil:", i)
+    
+
+#Mencari password yang benar dengan batas percobaan
+password_benar = "Python123"
+max_percobaan = 3
+percobaan = 0
+
+while percobaan < max_percobaan:
+    password = input("Masukkan password:")
+    percobaan += 1
+    
+    if password == password_benar:
+        print("Akses diterima.")
+        break
+    else:
+        print(f"Password salah. Anda memiliki {max_percobaan - percobaan} percobaan lagi.")
+else:
+    print("Akses ditolak. Terlalu banyak percobaan salah.")
+
+#Table perkalian lengakap
+print("Table Perkalian 5:\n")
+for i in range(1, 6):
+    for j in range(1, 6):
+        hasil = i * j
+        print(i, "x", j, "=", hasil)
+    print("=====")
